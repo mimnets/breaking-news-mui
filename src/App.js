@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import News from './components/News/News';
 
@@ -15,7 +14,7 @@ function App() {
   return (
     <div>
       {
-        news.map(bnews => <News news ={bnews}></News>)
+        news.map(bnews => <News news = {bnews}></News>)
       }
     </div>
   );
